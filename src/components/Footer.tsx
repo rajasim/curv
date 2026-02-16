@@ -11,7 +11,7 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: Instagram, label: "Instagram", href: "#" },
+    { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/c_curv_v?igsh=MXI4YnhidXVvM3JjNw%3D%3D&utm_source=qr" },
     { icon: Facebook, label: "Facebook", href: "#" },
     { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/919637969705" },
   ];
@@ -73,7 +73,7 @@ const Footer = () => {
               className="inline-flex items-center gap-2 text-primary hover:text-accent transition-colors duration-300"
             >
               <Phone className="w-4 h-4" />
-              <span className="font-medium">963 796 9705</span>
+              <span className="font-medium"> 963 796 9705</span>
             </a>
           </motion.div>
 

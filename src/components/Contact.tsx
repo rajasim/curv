@@ -39,7 +39,7 @@ const Contact = () => {
     {
       icon: MapPin,
       label: "Visit Us",
-      value: "Premium Tile Showroom",
+      value: "Opp. Indian Oil Petrol Pump, Near Ankali Phata,Sangli - Kolhapur Road, Sangli - 416 416",
       href: "#",
     },
     {
