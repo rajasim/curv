@@ -168,7 +168,7 @@ const Hero = () => {
                   Visit Us
                 </p>
                 <p className="text-lg font-medium text-foreground group-hover:text-primary transition-colors duration-300">
-                  Opp. Indian Oil Petrol Pump, Near Ankali Phata, Sangli - Kolhapur Road, Sangli - 416 416
+                   Near Ankali Phata, Sangli - Kolhapur Road, Sangli - 416 416
                 </p>
               </div>
             </motion.a>
