@@ -3,11 +3,11 @@ import { motion, useInView } from "framer-motion";
 
 const brands = [
   { name: "AGL", featured: true },
-  { name: "Somany", featured: false },
-  { name: "Kajaria", featured: false },
-  { name: "RAK", featured: false },
-  { name: "Orient Bell", featured: false },
-  { name: "Nitco", featured: false },
+  { name: "OrientBell", featured: false },
+  { name: "Bonzer7", featured: false },
+  { name: "Artline", featured: false },
+  { name: "Adicon", featured: false },
+  { name: "Solorex", featured: false },
 ];
 
 const Brands = () => {

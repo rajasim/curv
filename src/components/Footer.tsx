@@ -12,7 +12,7 @@ const Footer = () => {
 
   const socialLinks = [
     { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/c_curv_v?igsh=MXI4YnhidXVvM3JjNw%3D%3D&utm_source=qr" },
-    { icon: Facebook, label: "Facebook", href: "#" },
+   
     { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/919637969705" },
   ];
 

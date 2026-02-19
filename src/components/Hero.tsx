@@ -155,7 +155,7 @@ const Hero = () => {
 
             {/* Location CTA */}
             <motion.a
-              href="https://www.google.com/maps?q=Opp.+Indian+Oil+Petrol+Pump,+Near+Ankali+Phata,+Sangli+-+Kolhapur+Road,+Sangli+-+416+416"
+              href=" https://maps.app.goo.gl/Z6ghzSn7r9mwVpCG7?g_st=iw"
               target="_blank"
               className="flex items-center gap-3 group"
               whileHover={{ x: 5 }}
