@@ -195,14 +195,14 @@ const ProductCategories = () => {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="text-center mt-16"
         >
-          <motion.a
-            href="#contact"
-            className="btn-luxury inline-block"
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-          >
-            Request Catalog
-          </motion.a>
+         <motion.a
+  href="https://wa.me/9637969705"
+  className="btn-luxury inline-block"
+  whileHover={{ scale: 1.02 }}
+  whileTap={{ scale: 0.98 }}
+>
+  Request Catalog
+</motion.a>
         </motion.div>
       </div>
 
