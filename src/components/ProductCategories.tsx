@@ -107,18 +107,28 @@ const ProductCard = ({ category, index }: { category: typeof categories[0]; inde
           </motion.p>
 
           {/* CTA */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={isInView ? { opacity: 1 } : {}}
-            transition={{ duration: 0.6, delay: 0.6 + index * 0.1 }}
-            className="flex items-center gap-2 text-sm font-medium"
-            whileHover={{ x: 10 }}
-          >
-            <span className={category.accent === "primary" ? "text-primary" : "text-accent"}>
-              View Collection
-            </span>
-            <ArrowRight className={`w-4 h-4 ${category.accent === "primary" ? "text-primary" : "text-accent"}`} />
-          </motion.div>
+          {/* CTA - Fixed with absolute overlay to prevent design shifts */}
+<motion.div
+  initial={{ opacity: 0 }}
+  animate={isInView ? { opacity: 1 } : {}}
+  transition={{ duration: 0.6, delay: 0.6 + index * 0.1 }}
+  className="relative flex items-center gap-2 text-sm font-medium"
+  whileHover={{ x: 10 }}
+>
+  {/* The invisible link layer that covers only this row */}
+  <a 
+    href="https://wa.me/9637969705" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="absolute inset-0 z-30" 
+    aria-label="View Collection on WhatsApp"
+  />
+  
+  <span className={category.accent === "primary" ? "text-primary" : "text-accent"}>
+    View Collection
+  </span>
+  <ArrowRight className={`w-4 h-4 ${category.accent === "primary" ? "text-primary" : "text-accent"}`} />
+</motion.div>
         </div>
 
         {/* Hover Border Effect */}
